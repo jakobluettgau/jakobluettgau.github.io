@@ -1,0 +1,12 @@
+digraph G {
+	graph [fontname = "sans serif", margin=0, bgcolor="transparent"];
+	node [fontname = "sans serif", shape=box];
+	node [fontname = "sans serif", shape=box, style="filled, rounded", fillcolor="gray97"];
+	edge [fontname = "sans serif"];
+
+
+
+a -> b;
+
+
+}

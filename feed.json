@@ -1,0 +1,109 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Jakob Luettgau",
+    "home_page_url": "http://jakobluettgau.github.io",
+    "feed_url": "http://jakobluettgau.github.io/feed/json",
+    "description": "Here I collect impressions, current research, project updates, noteworthy articles, and other random thoughts often related to my research but really whatever captures curiosity's attention.",
+    "author": {
+        "name": "Jakob Luettgau",
+        "url": "http://jakobluettgau.github.io"
+    },
+    "items": [
+        {
+            "id": "https://jakobluettgau.github.io/#/blog/posts/Electrowetting-Platform-for-Extreme-Scale-Storage-Archives",
+            "content_html": "Abstract abstract abstract  abstract abstract  abstract abstract abstract.",
+            "url": "https://jakobluettgau.github.io/#/blog/posts/Electrowetting-Platform-for-Extreme-Scale-Storage-Archives",
+            "title": "Electrowetting Platform for Extreme-Scale Storage Archives",
+            "date_modified": "2025-03-04T14:40:23.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://jakobluettgau.github.io/#/blog/posts/A-Brief-Look-at-Sector-Zero-and-Sector-One-for-DNA-Data-Storage",
+            "content_html": "Late 2023 the Storage Networking Industry Association (SNIA) together with the DNA Data Storage Alliance released their specification for what would be considered the master boot record but for a DNA Storage Archive. In this post, we will briefly look at the specification and illustrate the format in action.",
+            "url": "https://jakobluettgau.github.io/#/blog/posts/A-Brief-Look-at-Sector-Zero-and-Sector-One-for-DNA-Data-Storage",
+            "title": "A Brief Look at Sector Zero and Sector One for DNA Data Storage",
+            "date_modified": "2024-05-19T20:35:33.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://jakobluettgau.github.io/#/blog/posts/Enabling-Agile-Analysis-of-I-O-Performance-Data-with-PyDarshan",
+            "content_html": "This post covers a workshop paper about PyDarshan presented at SC23 in the PROTOOLS workshop. Modern scientific applications utilize numerous software and hardware layers to efficiently access data. This approach poses a challenge for I/O optimization because of the need to instrument and correlate information across those layers. The Darshan characterization tool seeks to address this challenge by providing efficient, transparent, and compact runtime instrumentation of many common I/O interfaces. It also includes command-line tools to generate actionable insights and summary reports. However, the extreme diversity of today's scientific applications means  that not all applications are well served by one-size-fits-all analysis tools. In this work we present PyDarshan, a Python-based library that enables agile analysis of I/O performance data. PyDarshan caters to both novice and advanced users by offering ready-to-use HTML reports as well as a rich collection of APIs to facilitate custom analyses.  We present the design of PyDarshan and demonstrate its effectiveness in four diverse real-world analysis use cases.",
+            "url": "https://jakobluettgau.github.io/#/blog/posts/Enabling-Agile-Analysis-of-I-O-Performance-Data-with-PyDarshan",
+            "title": "Enabling Agile Analysis of I/O Performance Data with PyDarshan",
+            "date_modified": "2023-10-10T13:27:37.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://jakobluettgau.github.io/#/blog/posts/Understanding-Latency-and-Throughput-Constraints-for-NSDF",
+            "content_html": "This post covers a poster presented as HPDC 2023 about analysing latency and throughput constraints in geo-destributed deployments on academic compute and cloud resources: The National Science Data Fabric (NSDF) aims to address data-sharing needs of the growing data science community. NSDF is designed to make sharing data across geographically distributed sites easier for users who lack technical expertise and infrastructure. By developing an easy-to-install software stack, we promote the FAIR data-sharing principles in NSDF while leveraging existing high-speed data transfer infrastructures such as Globus and XRootD. This work shows how we leverage latency and throughput information between geo-distributed NSDF sites with NSDF entry points to optimize the automatic coordination of data placement and transfer across the data fabric, which can further improve the efficiency of data sharing.",
+            "url": "https://jakobluettgau.github.io/#/blog/posts/Understanding-Latency-and-Throughput-Constraints-for-NSDF",
+            "title": "Understanding Latency and Throughput Constraints for Geo-Distributed Data in the National Science Data Fabric",
+            "date_modified": "2023-06-20T19:47:39.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://jakobluettgau.github.io/#/blog/posts/Crafting-a-Hand-Fan",
+            "content_html": "This article documents the making of a wodden hand-fan starting from a blank of walnut given to me by a friend. The design borrows from a hand-fan my girlfriend likes very much. We start from cutting slices on the tablesaw, work out down to 0.8mm with the hand plane and cut the rough shape on the laser. Everything gets sanded to final shape before a laser-cut textile screen is added to hold the shape.",
+            "url": "https://jakobluettgau.github.io/#/blog/posts/Crafting-a-Hand-Fan",
+            "title": "The Journey of Making a Hand-Fan",
+            "date_modified": "2023-06-17T12:41:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://jakobluettgau.github.io/#/blog/posts/13-Years-of-Long-Term-Archives",
+            "content_html": "New data is being produced at unprecedented scales. Not all if this data might be worthy to be preserved, but the combination of more, cheaper, faster, higher-resolution sensors, and more capable computational devices lead to ever increasing data generation capabilities. This is true for individuals, business and of course also scientific use cases. Especially, observational data from environmental sensors, satellites, telescopse and other large scale science instruments are producers of large amounts of data which we would like to preserve in long-term archives. Today most long-term are using automated tape libraies as they offer high-capacities at low operating costs. In this article we introduce a data set destilled from 13 years of published data volumes and file counts for various long-term archives mostly used in scientific contexts.",
+            "url": "https://jakobluettgau.github.io/#/blog/posts/13-Years-of-Long-Term-Archives",
+            "title": "On the Development of Data Volumes in Long-Term Archives over the last 13 Years",
+            "date_modified": "2023-05-30T12:41:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://jakobluettgau.github.io/#/blog/posts/Demonstrating-the-Effect-of-Network-Topologies-in-HPC",
+            "content_html": "High-Performance Computing (HPC) applications are often tightly coupled and sensitive to latency between different processing elements but also to I/O contention due communication that flow through the same physical links. In most of todays supercomputers, the networks are shared resource which can lead to unpredictable runtime performance due to contention with other applications. The observed network performance in many cases is intimitely related to the underlying network topology. In many HPC systems, this topology is a fat tree which can lead to very characteristic latency patterns especially for large applications that span many nodes.",
+            "url": "https://jakobluettgau.github.io/#/blog/posts/Demonstrating-the-Effect-of-Network-Topologies-in-HPC",
+            "title": "Demonstrating the Effect of Network Topology on Point-to-Point Latency in High-Performance Computing",
+            "date_modified": "2023-03-19T12:41:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://jakobluettgau.github.io/#/blog/posts/Crafting-a-Quartett-of-Barstools",
+            "content_html": "This article documents the production of four barstools from design to final product. The project involved various forms of metal processing, from bending, to welding and treatment as well as woodworking for the seating elements and back support. The goal was to build a height-adjustable chair that would come out under a $100 per chair. ",
+            "url": "https://jakobluettgau.github.io/#/blog/posts/Crafting-a-Quartett-of-Barstools",
+            "title": "Crafting a Quartet of Barstools",
+            "date_modified": "2022-12-16T12:40:00.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://jakobluettgau.github.io/#/blog/posts/Machine-Learning-Fundamentals-for-Systems-Optimization",
+            "content_html": "This post takes a closer look at the machanics of machine learning training and takes a lense what this means for training on performance data. Here we take a particular look at I/O performance data tied to specirfic scientific workflows, but many of the considerations should be true for other distributed systems. We look how, while the model is at the heart of learned approaches, a lot of the mechanics and important choices lie in the data generating distribution, the loss and regularization methods used to update the model across multiple iterations of training epochs.",
+            "url": "https://jakobluettgau.github.io/#/blog/posts/Machine-Learning-Fundamentals-for-Systems-Optimization",
+            "title": "Machine Learning Fundamentals for Systems Optimization",
+            "date_modified": "2022-03-30T17:40:31.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://jakobluettgau.github.io/#/blog/posts/Map-of-Machine-Learning-Approaches",
+            "content_html": "The landscape of machine learning approahes is vast and only increases to grow as computational power is available. Without any aspiration to be complete, this post maps out a number of very established machine learning methods and relates them to each other. The resulting graph when using a spring-layout yields an interesting perspective that also intuitively appears appropriate.",
+            "url": "https://jakobluettgau.github.io/#/blog/posts/Map-of-Machine-Learning-Approaches",
+            "title": "Map of Machine Learning Approaches",
+            "date_modified": "2021-09-21T17:37:58.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://jakobluettgau.github.io/#/blog/posts/Semiconductor-Fabrication-Plants-Around-the-World",
+            "content_html": "This article visualizes the locations and characteristics of different semiconductor manufacturing plants across the globe. We take three different lenses on this and consider the process node or features size, the production volum and the cost of different fabrication plants. The data is based on the list of semiconductur manufacturing plants on Wikipedia.",
+            "url": "https://jakobluettgau.github.io/#/blog/posts/Semiconductor-Fabrication-Plants-Around-the-World",
+            "title": "Semiconductor Fabrication Plants Around the World",
+            "date_modified": "2021-06-15T11:52:40.000Z",
+            "author": {}
+        },
+        {
+            "id": "https://jakobluettgau.github.io/#/blog/posts/Revisiting-the-Top500-over-Time",
+            "content_html": "Twice a year a new toplist of supercomputing is released, the so called Top500. For several decades this project has tracked the technology, the peak performance and the sites of supercomputing deployments. This post recreates some of plots most in the field of High-Performance Computing might be familier with: Tracking the development of the Top500 over time. I needed to play with the data to confirm some assumptions I would make but also out of curiosity. Inparticular we look at the peak performance, processor counts, and power across different machines.",
+            "url": "https://jakobluettgau.github.io/#/blog/posts/Revisiting-the-Top500-over-Time",
+            "title": "A Closer Look at the Top500 over Time",
+            "date_modified": "2021-04-26T18:22:40.000Z",
+            "author": {}
+        }
+    ]
+}
